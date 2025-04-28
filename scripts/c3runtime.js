@@ -1233,6 +1233,8 @@ function or(l, r)
 
 self.C3_ExpressionFuncs = [
 		() => 1,
+		() => 0,
+		() => "Great! Now return to the ship!",
 		() => 400,
 		() => 0.5,
 		() => 0.15,
@@ -1241,7 +1243,6 @@ self.C3_ExpressionFuncs = [
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0();
 		},
-		() => 0,
 		() => 100,
 		() => 17,
 		() => 18,
